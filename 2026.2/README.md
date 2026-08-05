@@ -17,7 +17,7 @@
 
 | Dia | Data | Módulo | Tópico |
 |---|---|---|---|
-| Quinta | 06/08/2026 | MD0: [Apresentação da disciplina](aula-00/) | Apresentação da disciplina |
+| Quinta | 06/08/2026 | MD0: Apresentação da disciplina | [Apresentação da disciplina](aula-00/) |
 | Quinta | 13/08/2026 | MD1: Planejamento do TCC | Planejamento do TCC |
 | Quinta | 20/08/2026 |  | Planejamento do TCC |
 | Quinta | 27/08/2026 |  | Planejamento do TCC |
