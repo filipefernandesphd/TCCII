@@ -14,12 +14,12 @@ export interface AcademicPresentation {
 }
 
 export const academicConfig = {
-  courseName: 'Nome do curso',
-  subjectName: 'Nome da disciplina',
-  subjectAcronym: 'SIGLA',
-  subjectCode: 'COD-0000',
-  professorName: 'Prof. Nome do Professor',
-  professorContact: 'professor@instituicao.br',
-  presentationTitle: 'Título da apresentação',
+  courseName: 'Bacharelado em Sistemas de Informação',
+  subjectName: 'Trabalho de Conclusão de Curso II',
+  subjectAcronym: 'TCCII',
+  subjectCode: 'INF03094',
+  professorName: 'Filipe Fernandes, PhD',
+  professorContact: 'filipe.fernandes@ifsudestemg.edu.br',
+  presentationTitle: 'Programa Analítico da Disciplina',
 } satisfies AcademicPresentation
 

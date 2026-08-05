@@ -35,7 +35,7 @@ Decisões do projeto:
 | Página do semestre | Combina a prosa de`AAAA.S/README.md` com o cronograma canônico de `AAAA.S/schedule.json`.  |
 | Página da aula     | É gerada pela estrutura de`AAAA.S/aula-NN/`.                                                 |
 | Slides              | Abrem dentro do GitHub Pages.                                                                   |
-| Ativos do semestre  | A pasta opcional `AAAA.S/assets/` é publicada no mesmo caminho para uso pelos slides.           |
+| Ativos do semestre  | A pasta opcional`AAAA.S/assets/` é publicada no mesmo caminho para uso pelos slides.         |
 | Outros materiais    | Abrem no GitHub, na mesma revisão do site.                                                     |
 | HTML                | Fica apenas no artefato`_site/`; não é editado ou commitado.                                |
 | Branches            | Toda branch é verificada; somente a branch padrão publica.                                    |

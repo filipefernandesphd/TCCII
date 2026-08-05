@@ -18,10 +18,15 @@
   "dependencies": {
     "@slidev/cli": "52.16.0",
     "slidev-theme-tahta": "0.13.3",
-    "vue": "3.5.40"
+    "vue": "3.5.40",
+    "slidev-addon-citations": "0.0.13"
   },
   "overrides": {
     "dompurify": "3.4.12",
-    "sharp": "0.35.3"
+    "sharp": "0.35.3",
+    "@citation-js/core": "0.7.21",
+    "@citation-js/plugin-bibtex": "0.7.21",
+    "@citation-js/plugin-csl": "0.7.21",
+    "@citation-js/plugin-doi": "0.7.21"
   }
 }
