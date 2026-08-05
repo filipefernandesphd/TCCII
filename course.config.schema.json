@@ -1,0 +1,174 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "course.config.schema.json",
+  "title": "Configuração pública de uma disciplina",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "schemaVersion",
+    "course",
+    "repository",
+    "site",
+    "slides"
+  ],
+  "properties": {
+    "$schema": {
+      "type": "string"
+    },
+    "schemaVersion": {
+      "const": 1
+    },
+    "course": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "name",
+        "acronym",
+        "code",
+        "program",
+        "institution",
+        "modality",
+        "workloadHours",
+        "instructor"
+      ],
+      "properties": {
+        "name": {
+          "type": "string",
+          "minLength": 1
+        },
+        "acronym": {
+          "type": "string",
+          "minLength": 1
+        },
+        "code": {
+          "type": "string",
+          "minLength": 1
+        },
+        "program": {
+          "type": "string",
+          "minLength": 1
+        },
+        "institution": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": [
+            "name",
+            "campus",
+            "url"
+          ],
+          "properties": {
+            "name": {
+              "type": "string",
+              "minLength": 1
+            },
+            "campus": {
+              "type": "string",
+              "minLength": 1
+            },
+            "url": {
+              "type": "string",
+              "format": "uri",
+              "pattern": "^https://"
+            }
+          }
+        },
+        "modality": {
+          "type": "string",
+          "minLength": 1
+        },
+        "workloadHours": {
+          "type": "number",
+          "exclusiveMinimum": 0
+        },
+        "instructor": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": [
+            "name",
+            "url"
+          ],
+          "properties": {
+            "name": {
+              "type": "string",
+              "minLength": 1
+            },
+            "url": {
+              "type": "string",
+              "format": "uri",
+              "pattern": "^https://"
+            }
+          }
+        }
+      }
+    },
+    "repository": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "provider",
+        "owner",
+        "name",
+        "url"
+      ],
+      "properties": {
+        "provider": {
+          "const": "github"
+        },
+        "owner": {
+          "type": "string",
+          "pattern": "^[A-Za-z0-9](?:[A-Za-z0-9-]{0,37}[A-Za-z0-9])?$"
+        },
+        "name": {
+          "type": "string",
+          "pattern": "^[A-Za-z0-9._-]+$"
+        },
+        "url": {
+          "type": "string",
+          "format": "uri",
+          "pattern": "^https://github\\.com/"
+        }
+      }
+    },
+    "site": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "currentSemester",
+        "locale",
+        "timezone"
+      ],
+      "properties": {
+        "currentSemester": {
+          "type": "string",
+          "pattern": "^[0-9]{4}\\.[12]$"
+        },
+        "locale": {
+          "type": "string",
+          "pattern": "^[a-z]{2}(?:-[A-Z]{2})?$"
+        },
+        "timezone": {
+          "type": "string",
+          "minLength": 1
+        }
+      }
+    },
+    "slides": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "templateRepository",
+        "templateRevision"
+      ],
+      "properties": {
+        "templateRepository": {
+          "type": "string",
+          "const": "git@github.com:filipefernandesphd/my-slidev-template.git"
+        },
+        "templateRevision": {
+          "type": "string",
+          "pattern": "^[0-9a-f]{40}$"
+        }
+      }
+    }
+  }
+}

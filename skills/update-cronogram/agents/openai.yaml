@@ -1,0 +1,4 @@
+interface:
+  display_name: "Atualizar cronograma"
+  short_description: "Sincroniza o cronograma do semestre vigente"
+  default_prompt: "Use $update-cronogram para atualizar o cronograma do semestre definido em SEMESTER."

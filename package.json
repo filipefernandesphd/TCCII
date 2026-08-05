@@ -1,0 +1,27 @@
+{
+  "name": "course-materials-site",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Gerador estático reutilizável para materiais de disciplinas no GitHub Pages.",
+  "license": "MIT",
+  "type": "module",
+  "engines": {
+    "node": "^22.18.0 || >=24.11.0"
+  },
+  "scripts": {
+    "check": "node scripts/check-content.mjs && node scripts/sync-schedule-links.mjs --check && node --test scripts/*.test.mjs",
+    "build": "node scripts/sync-schedule-links.mjs && node scripts/check-content.mjs && node scripts/build-site.mjs",
+    "preview": "node scripts/preview-site.mjs",
+    "aula:nova": "node scripts/new-lesson.mjs",
+    "slidev": "slidev"
+  },
+  "dependencies": {
+    "@slidev/cli": "52.16.0",
+    "slidev-theme-tahta": "0.13.3",
+    "vue": "3.5.40"
+  },
+  "overrides": {
+    "dompurify": "3.4.12",
+    "sharp": "0.35.3"
+  }
+}

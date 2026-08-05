@@ -1,0 +1,24 @@
+{
+  "$schema": "../schedule.schema.json",
+  "schemaVersion": 1,
+  "semester": "2026.2",
+  "source": {
+    "tab": "Program"
+  },
+  "entries": [
+    {
+      "day": "Segunda",
+      "date": "03/08/2026",
+      "module": "Módulo inicial",
+      "topic": "Apresentação da disciplina",
+      "id": "aula-00"
+    },
+    {
+      "day": "Quarta",
+      "date": "05/08/2026",
+      "module": "",
+      "topic": "Evento acadêmico sem página",
+      "id": ""
+    }
+  ]
+}

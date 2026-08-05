@@ -1,0 +1,94 @@
+name: Validar e publicar o site
+
+on:
+  push:
+    branches:
+      - "**"
+  pull_request:
+  workflow_dispatch:
+
+concurrency:
+  group: pages
+  cancel-in-progress: false
+
+jobs:
+  pages_metadata:
+    name: Ler a configuração do GitHub Pages
+    runs-on: ubuntu-latest
+    permissions:
+      pages: read
+    outputs:
+      base_path: ${{ steps.pages.outputs.base_path }}
+
+    steps:
+      - name: Configurar o GitHub Pages
+        id: pages
+        uses: actions/configure-pages@v6
+
+  build:
+    needs: pages_metadata
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+
+    steps:
+      - name: Obter o repositório
+        uses: actions/checkout@v7
+
+      - name: Configurar o Node.js
+        uses: actions/setup-node@v7
+        with:
+          node-version-file: .nvmrc
+          cache: npm
+
+      - name: Instalar dependências
+        run: npm ci
+
+      - name: Validar a configuração do repositório
+        env:
+          REPOSITORY_FULL_NAME: ${{ github.repository }}
+        run: |
+          node --input-type=module -e '
+            import config from "./course.config.json" with { type: "json" };
+            const configured = `${config.repository.owner}/${config.repository.name}`;
+            if (configured !== process.env.REPOSITORY_FULL_NAME) {
+              throw new Error(`course.config.json declara ${configured}, mas o workflow executa em ${process.env.REPOSITORY_FULL_NAME}.`);
+            }
+          '
+
+      - name: Sincronizar a projeção do cronograma
+        run: node scripts/sync-schedule-links.mjs
+
+      - name: Verificar a projeção do cronograma
+        run: node scripts/sync-schedule-links.mjs --check
+
+      - name: Validar o conteúdo
+        run: npm run check
+
+      - name: Gerar o site
+        env:
+          GITHUB_SHA: ${{ github.sha }}
+          PAGES_BASE_PATH: ${{ needs.pages_metadata.outputs.base_path }}
+        run: npm run build
+
+      - name: Enviar o artefato do Pages
+        if: github.ref == format('refs/heads/{0}', github.event.repository.default_branch)
+        uses: actions/upload-pages-artifact@v5
+        with:
+          path: _site
+
+  deploy:
+    if: github.ref == format('refs/heads/{0}', github.event.repository.default_branch)
+    needs: build
+    runs-on: ubuntu-latest
+    permissions:
+      pages: write
+      id-token: write
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+
+    steps:
+      - name: Publicar no GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v5

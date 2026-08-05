@@ -1,0 +1,36 @@
+{
+  "$schema": "./course.config.schema.json",
+  "schemaVersion": 1,
+  "course": {
+    "name": "Disciplina Exemplo",
+    "acronym": "EXEMPLO",
+    "code": "COD000",
+    "program": "Curso Exemplo",
+    "institution": {
+      "name": "Instituição Exemplo",
+      "campus": "Campus Exemplo",
+      "url": "https://example.com/instituicao"
+    },
+    "modality": "Presencial",
+    "workloadHours": 60,
+    "instructor": {
+      "name": "Nome do Professor",
+      "url": "https://example.com/professor"
+    }
+  },
+  "repository": {
+    "provider": "github",
+    "owner": "filipefernandesphd",
+    "name": "my-subject-repository",
+    "url": "https://github.com/filipefernandesphd/my-subject-repository"
+  },
+  "site": {
+    "currentSemester": "2026.2",
+    "locale": "pt-BR",
+    "timezone": "America/Sao_Paulo"
+  },
+  "slides": {
+    "templateRepository": "git@github.com:filipefernandesphd/my-slidev-template.git",
+    "templateRevision": "1db486dba3cdb9dcae70fdfa806a5627eabf05ae"
+  }
+}
