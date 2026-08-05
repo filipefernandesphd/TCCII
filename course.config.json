@@ -2,20 +2,20 @@
   "$schema": "./course.config.schema.json",
   "schemaVersion": 1,
   "course": {
-    "name": "Disciplina Exemplo",
-    "acronym": "EXEMPLO",
-    "code": "COD000",
-    "program": "Curso Exemplo",
+    "name": "Trabalho de Conclusão de Curso II",
+    "acronym": "TCCII",
+    "code": "INF03094 ",
+    "program": "Bacharelado em Sistemas de Informação",
     "institution": {
-      "name": "Instituição Exemplo",
-      "campus": "Campus Exemplo",
-      "url": "https://example.com/instituicao"
+      "name": "IF Sudeste MG",
+      "campus": "Campus Manhuaçu",
+      "url": "https://www.ifsudestemg.edu.br/manhuacu"
     },
     "modality": "Presencial",
-    "workloadHours": 60,
+    "workloadHours": 30,
     "instructor": {
-      "name": "Nome do Professor",
-      "url": "https://example.com/professor"
+      "name": "Filipe Fernandes, PhD",
+      "url": "https://filipefernandesphd.com"
     }
   },
   "repository": {
@@ -31,6 +31,6 @@
   },
   "slides": {
     "templateRepository": "git@github.com:filipefernandesphd/my-slidev-template.git",
-    "templateRevision": "1db486dba3cdb9dcae70fdfa806a5627eabf05ae"
+    "templateRevision": "5dc52cd82013de4012c33c03f46e9aa9a25e5ab2"
   }
 }

@@ -1,0 +1,209 @@
+:root,
+:root[data-variant='minimal'] {
+  --academic-navy-950: #0b132b;
+  --academic-navy-800: #1c2541;
+  --academic-slate-600: #3a506b;
+  --academic-teal-400: #5bc0be;
+  --academic-white: #ffffff;
+
+  /* Adaptação da variante Minimal do Tahta. */
+  --ink: var(--academic-white);
+  --ink-2: color-mix(in srgb, var(--academic-slate-600) 4%, var(--academic-white));
+  --line: color-mix(in srgb, var(--academic-slate-600) 26%, var(--academic-white));
+  --fg: var(--academic-navy-950);
+  --fg-dim: var(--academic-slate-600);
+  --accent-base: var(--academic-teal-400);
+  --accent: var(--academic-teal-400);
+  --accent-deep: var(--academic-slate-600);
+  --accent-soft: color-mix(in srgb, var(--academic-teal-400) 38%, var(--academic-white));
+  --on-accent: var(--academic-navy-950);
+  --cat-1: var(--academic-teal-400);
+  --cat-2: var(--academic-navy-950);
+  --cat-3: var(--academic-navy-800);
+  --cat-4: var(--academic-slate-600);
+  --cat-5: var(--academic-navy-950);
+  --surface-bg: transparent;
+  --surface-border: 1px solid var(--line);
+  --code-bg: color-mix(in srgb, var(--academic-slate-600) 7%, var(--academic-white));
+  --chart-muted: color-mix(in srgb, var(--academic-slate-600) 24%, var(--academic-white));
+  --academic-body-font-size: 2rem;
+  --academic-reference-font-size: 1rem;
+}
+
+/* Amplia o conteúdo padrão sem alterar a densidade da bibliografia. */
+.slidev-layout .l-body {
+  font-size: var(--academic-body-font-size);
+}
+
+.slidev-layout .biblio_graphy {
+  font-size: var(--academic-reference-font-size);
+}
+
+/* O rodapé acadêmico substitui o rodapé nativo do tema. */
+.slidev-layout .foot {
+  display: none !important;
+}
+
+.academic-footer {
+  position: absolute;
+  right: var(--pad-x, 4.2rem);
+  bottom: 1.35rem;
+  left: var(--pad-x, 4.2rem);
+  z-index: 80;
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) auto;
+  gap: 1.5rem;
+  align-items: center;
+  padding-top: 0.65rem;
+  border-top: 1px solid var(--line);
+  color: var(--academic-slate-600);
+  font: 600 0.65rem/1.2 var(--font-mono);
+  letter-spacing: 0.045em;
+}
+
+.academic-footer__metadata {
+  display: flex;
+  min-width: 0;
+  align-items: center;
+  gap: 0.55rem;
+  white-space: nowrap;
+}
+
+.academic-footer__title {
+  overflow: hidden;
+  color: var(--academic-navy-800);
+  text-overflow: ellipsis;
+}
+
+.academic-footer__pages {
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+}
+
+.academic-footer__current {
+  color: var(--academic-navy-950);
+}
+
+.academic-cover {
+  position: relative;
+  display: grid;
+  grid-template-rows: auto 1fr auto;
+  height: 100%;
+  padding: 3.6rem 4.2rem 3.4rem;
+  overflow: hidden;
+  background:
+    linear-gradient(
+      90deg,
+      var(--academic-navy-950) 0,
+      var(--academic-navy-950) 0.7rem,
+      transparent 0.7rem
+    ),
+    var(--academic-white);
+  color: var(--academic-navy-950);
+}
+
+.academic-cover__rule {
+  width: 5.5rem;
+  height: 0.45rem;
+  background: var(--academic-teal-400);
+}
+
+.academic-cover__content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  max-width: 48rem;
+}
+
+.academic-cover__course {
+  margin: 0 0 2rem;
+  color: var(--academic-slate-600);
+  font: 650 0.8rem/1.2 var(--font-mono);
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+}
+
+.academic-cover h1 {
+  max-width: 15ch;
+  margin: 0;
+  color: var(--academic-navy-950);
+  font-family: var(--font-display);
+  font-size: clamp(3.8rem, 7.4vw, 5.6rem);
+  font-weight: 800;
+  letter-spacing: -0.045em;
+  line-height: 0.94;
+  text-wrap: balance;
+}
+
+.academic-cover__subject {
+  display: flex;
+  gap: 0.7rem;
+  align-items: center;
+  margin: 2rem 0 0;
+  color: var(--academic-navy-800);
+  font-size: 1.25rem;
+  font-weight: 600;
+}
+
+.academic-cover__subject span {
+  padding: 0.25rem 0.55rem;
+  background: var(--academic-teal-400);
+  color: var(--academic-navy-950);
+  font: 750 0.72rem/1 var(--font-mono);
+  letter-spacing: 0.08em;
+}
+
+.academic-cover__details {
+  display: flex;
+  justify-content: space-between;
+  align-items: end;
+  padding-top: 1.4rem;
+  border-top: 1px solid var(--line);
+}
+
+.academic-cover__details p {
+  margin: 0;
+}
+
+.academic-cover__label {
+  margin-bottom: 0.4rem !important;
+  color: var(--academic-slate-600);
+  font: 650 0.62rem/1 var(--font-mono);
+  letter-spacing: 0.11em;
+  text-transform: uppercase;
+}
+
+.academic-cover__professor,
+.academic-cover__code > p:last-child {
+  color: var(--academic-navy-800);
+  font-size: 1rem;
+  font-weight: 650;
+}
+
+.academic-cover__contact {
+  margin-top: 0.25rem !important;
+  color: var(--academic-slate-600);
+  font-size: 0.78rem;
+}
+
+.academic-cover__code {
+  text-align: right;
+}
+
+@media (max-width: 700px) {
+  .academic-footer {
+    right: 2rem;
+    left: 2rem;
+  }
+
+  .academic-footer__metadata {
+    gap: 0.35rem;
+    font-size: 0.58rem;
+  }
+
+  .academic-cover {
+    padding-right: 2.5rem;
+    padding-left: 2.5rem;
+  }
+}
