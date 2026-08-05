@@ -7,17 +7,164 @@
   },
   "entries": [
     {
-      "day": "Segunda",
-      "date": "03/08/2026",
-      "module": "Módulo inicial",
+      "day": "Quinta",
+      "date": "06/08/2026",
+      "module": "MD0: Apresentação da disciplina",
       "topic": "Apresentação da disciplina",
       "id": "aula-00"
     },
     {
-      "day": "Quarta",
-      "date": "05/08/2026",
+      "day": "Quinta",
+      "date": "13/08/2026",
+      "module": "MD1: Planejamento do TCC",
+      "topic": "Planejamento do TCC",
+      "id": ""
+    },
+    {
+      "day": "Quinta",
+      "date": "20/08/2026",
       "module": "",
-      "topic": "Evento acadêmico sem página",
+      "topic": "Planejamento do TCC",
+      "id": ""
+    },
+    {
+      "day": "Quinta",
+      "date": "27/08/2026",
+      "module": "",
+      "topic": "Planejamento do TCC",
+      "id": ""
+    },
+    {
+      "day": "Quinta",
+      "date": "03/09/2026",
+      "module": "",
+      "topic": "SEMINÁRIO I",
+      "id": ""
+    },
+    {
+      "day": "Quinta",
+      "date": "10/09/2026",
+      "module": "",
+      "topic": "[AULA CANCELADA]",
+      "id": ""
+    },
+    {
+      "day": "Quinta",
+      "date": "17/09/2026",
+      "module": "",
+      "topic": "[AULA CANCELADA]",
+      "id": ""
+    },
+    {
+      "day": "Quinta",
+      "date": "24/09/2026",
+      "module": "",
+      "topic": "[AULA CANCELADA]",
+      "id": ""
+    },
+    {
+      "day": "Quinta",
+      "date": "01/10/2026",
+      "module": "MD2: Desenvolvimento do TCC",
+      "topic": "Desenvolvimento do TCC",
+      "id": ""
+    },
+    {
+      "day": "Quinta",
+      "date": "08/10/2026",
+      "module": "",
+      "topic": "Desenvolvimento do TCC",
+      "id": ""
+    },
+    {
+      "day": "Quinta",
+      "date": "15/10/2026",
+      "module": "",
+      "topic": "Desenvolvimento do TCC",
+      "id": ""
+    },
+    {
+      "day": "Quinta",
+      "date": "22/10/2026",
+      "module": "",
+      "topic": "Desenvolvimento do TCC",
+      "id": ""
+    },
+    {
+      "day": "Quinta",
+      "date": "29/10/2026",
+      "module": "",
+      "topic": "Desenvolvimento do TCC",
+      "id": ""
+    },
+    {
+      "day": "Quinta",
+      "date": "29/10/2026",
+      "module": "",
+      "topic": "[REPOSIÇÃO - 4 AULAS] - Desenvolvimento do TCC",
+      "id": ""
+    },
+    {
+      "day": "Quinta",
+      "date": "05/11/2026",
+      "module": "",
+      "topic": "[AULA CANCELADA] 05 - Aniversário de Manhuaçu",
+      "id": ""
+    },
+    {
+      "day": "Quinta",
+      "date": "12/11/2026",
+      "module": "",
+      "topic": "SEMINÁRIO II",
+      "id": ""
+    },
+    {
+      "day": "Sábado",
+      "date": "14/11/2026",
+      "module": "",
+      "topic": "Atividade do NEABI",
+      "id": ""
+    },
+    {
+      "day": "Quinta",
+      "date": "19/11/2026",
+      "module": "",
+      "topic": "SEMINÁRIO II",
+      "id": ""
+    },
+    {
+      "day": "Quinta",
+      "date": "19/11/2026",
+      "module": "",
+      "topic": "[REPOSIÇÃO - 2 AULAS]",
+      "id": ""
+    },
+    {
+      "day": "Quinta",
+      "date": "26/11/2026",
+      "module": "",
+      "topic": "SEMINÁRIO II",
+      "id": ""
+    },
+    {
+      "day": "Quinta",
+      "date": "03/12/2026",
+      "module": "MD3: Finalização do artigo",
+      "topic": "Correção do artigo",
+      "id": ""
+    },
+    {
+      "day": "Quinta",
+      "date": "10/12/2026",
+      "module": "",
+      "topic": "RELATÓRIO FINAL",
+      "id": ""
+    },
+    {
+      "day": "Sábado",
+      "date": "12/12/2026",
+      "module": "",
+      "topic": "Atividade de Informática",
       "id": ""
     }
   ]
