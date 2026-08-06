@@ -5,7 +5,7 @@ addons:
 title: Programa Analítico
 aspectRatio: 4/3
 info: |
-  Visão geral da disciplina Trabalho de Conclusão de Curso II - 2026/2.
+  Visão geral da disciplina Trabalho de Conclusão de Curso II — 2026/2.
 themeConfig:
   variant: minimal
 mdc: true
@@ -21,7 +21,7 @@ layout: academic-cover
 ---
 layout: section
 index: "01"
-title: Sobre Mim
+title: Sobre mim
 ---
 
 ---
@@ -34,13 +34,13 @@ title: Filipe Fernandes
 - Itaperuna/RJ
 - Baterista que toca outros instrumentos
 - Design Inteligente
-- CEO de startup futura
+- CEO de uma futura startup
 
 **Profissional:**
-- IF Sudeste MG - Campus Manhuaçu (out/2016 - Atual)
-- Mestrado e Doutorado - COPPE/UFRJ (2014 - 2023)
-- Pós-doutorado - UFMG (2025 - 2026)
-- Especialista em Computação Quântica - SENAI/CIMATEC (2025 - 2026)
+- IF Sudeste MG — Campus Manhuaçu (out./2016 – atual)
+- Mestrado e doutorado — COPPE/UFRJ (2014–2023)
+- Pós-doutorado — UFMG (2025–2026)
+- Especialista em Computação Quântica — SENAI/CIMATEC (2025–2026)
 
 ---
 layout: image
@@ -53,7 +53,7 @@ title: Atuação
   - Metaverse Engineering
   - AI4SE e SE4AI
 
-- **Coodenador de projetos de pesquisa:**
+- **Coordenador de projetos de pesquisa:**
   - IF Sudeste MG
   - FAPEMIG
 
@@ -61,7 +61,7 @@ title: Atuação
 
 - **Steering Committee**: [I Workshop Brasileiro de Engenharia de Software Quântico (WQSE)](https://wqseworkshop.github.io/WQSE2026/organization.html)
 
-- **Editor Assistente**: SBC Reviews
+- **Editor assistente**: SBC Reviews
 
 - **Comitê de programa**: conferências nacionais e internacionais
 
@@ -72,16 +72,16 @@ title: Atuação
 ---
 layout: section
 index: "02"
-title: Informações Gerais
+title: Informações gerais
 ---
 
 ---
 layout: default
-title: Sobre o Programa Analítico
+title: Sobre o programa analítico
 
 ---
 
-- Art. 9º §2º \[...\] deverá ser feito pelos professores \[...\] levando-se em consideração o PPC, devendo conter [@RAG2018]:
+- Art. 9º, § 2º: \[...\] deverá ser feito pelos professores \[...\], levando-se em consideração o PPC, devendo conter [@RAG2018]:
 
 |                                                                                                                                  |                                                                |
 | -------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------- |
@@ -92,13 +92,13 @@ title: Sobre o Programa Analítico
 | Conteúdo programático discriminando a quantidade de aulas por conteúdo, separando as aulas teóricas e práticas, quando aplicável | Bibliografia básica (mínimo de 3) e complementar (mínimo de 5) |
 
 ---
-title: Sobre o Programa Analítico
+title: Sobre o programa analítico
 ---
-- Art. 9º §1º \[...\] deverá ser apresentado aos discentes **na primeira aula da disciplina** [@RAG2018]
-- Art. 9 §3º \[...\] **poderão ser modificados** a partir de demandas identificadas no decorrer da disciplina [@RAG2018]
+- Art. 9º, § 1º: \[...\] deverá ser apresentado aos discentes **na primeira aula da disciplina** [@RAG2018]
+- Art. 9º, § 3º: \[...\] **poderão ser modificados** a partir de demandas identificadas no decorrer da disciplina [@RAG2018]
 
 ---
-title: Informações do Curso
+title: Informações do curso
 ---
 
 - Curso: Bacharelado em Sistemas de Informação
@@ -108,45 +108,45 @@ title: Informações do Curso
 - Número de períodos: 8
 
 ---
-title: Regras para Aprovação ou Reprovação
+title: Regras para aprovação ou reprovação
 ---
 
 Art. 37 [@RAG2018]
 
-- **APROVADO**: nota da disciplina >= 6,0 **E** frequência >= 75%
+- **APROVADO**: nota da disciplina ≥ 6,0 **E** frequência ≥ 75%
 - **REPROVADO**: nota da disciplina < 4,0 **OU** frequência < 75%
-- **EXAME FINAL**: opcional ao discente com nota >= 4,0 **E** nota < 6,0 **E** frequência >= 75%
+- **EXAME FINAL**: opcional ao discente com nota ≥ 4,0 **E** nota < 6,0 **E** frequência ≥ 75%
 
 ---
-title: Regras para Frequência
+title: Regras para frequência
 ---
-- Art. 36. A frequência às aulas e as demais atividades acadêmicas serão obrigatórias [@RAG2018]
-- §1º Casos aceitos para **abono de faltas**:
+- Art. 36: a frequência às aulas e às demais atividades acadêmicas é obrigatória [@RAG2018]
+- § 1º — Casos aceitos para **abono de faltas**:
   - Alunos reservistas
-  - Oficial ou Aspirante-a-Oficial da Reserva, convocado para o serviço ativo
-  - Aluno com representação que tenha participado de reuniões da Comissão Nacional de Avaliação da Educação Superior – CONAES
-- O registro da frequência é por aula (45min) e **não** por dia
+  - Oficial ou aspirante a oficial da reserva convocado para o serviço ativo
+  - Aluno que, na qualidade de representante, tenha participado de reuniões da Comissão Nacional de Avaliação da Educação Superior (CONAES)
+- O registro da frequência é feito por aula (45 min) e **não** por dia
 
 ---
 layout: section
 index: "03"
-title: Informações da Disciplina
+title: Informações da disciplina
 
 ---
 
 ---
-title: Informações da Disciplina
+title: Informações da disciplina
 ---
 
 - Período: 8º semestre
 - Natureza: obrigatória
 - Código: INF03094
-- Carga-horária: 30 horas
-- Número de aulas: 40 aulas
+- Carga horária: 30 horas
+- Número de aulas: 40
 - Pré-requisito: Trabalho de Conclusão de Curso II
 
 ---
-title: Por que estudar Trabalho de Conclusão de Curso II
+title: Por que estudar Trabalho de Conclusão de Curso II?
 kicker: Motivação
 ---
 - Auxiliar no planejamento e na execução do TCC
@@ -158,39 +158,39 @@ kicker: Motivação
 title: Objetivo
 ---
 
-Capacitar o estudante a finalizar o Trabalho de Conclusão de Curso, assegurando a qualidade do trabalho e o cumprimento dos requisitos acadêmicos para sua conclusão
+Capacitar o estudante a finalizar o Trabalho de Conclusão de Curso, assegurando a qualidade do trabalho e o cumprimento dos requisitos acadêmicos para sua conclusão.
 
 <!-- ---
 title: Metodologia (1)
 ---
-- **Preparação**: primeiros 15min
+- **Preparação**: primeiros 15 min
 - **Aula**: restante do tempo 
-- **Encerramento**: últimos 15min -->
+- **Encerramento**: últimos 15 min -->
 
 ---
 title: Metodologia
 ---
 - Orientações individualizadas, conforme as demandas de cada estudante
-- Seminários   
+- Seminários
 
 ---
-title: Recursos Didáticos
+title: Recursos didáticos
 ---
 
 - **Avisos, frequência e envio de atividades**: SIGAA
 - **Materiais**: [https://filipefernandesphd.com/teaching](https://filipefernandesphd.com/teaching)
-- **Recursos em sala de aula**: computador, datashow, lousa e pincéis, tablet, slides, vscode, dentre outros recursos digitais
+- **Recursos em sala de aula**: computador, projetor, lousa, pincéis, tablet, slides, VS Code e outros recursos digitais
 
 ---
-title: Bibliografias
+title: Bibliografia
 ---
-*Ad-hoc.*
+*Ad hoc.*
 
 ---
 title: Ementa
 ---
 - Execução do projeto de pesquisa e/ou desenvolvimento de solução
-- Escrita de Artigo.
+- Escrita de artigo
 - Ação de pesquisa e inovação de caráter didático-pedagógico
 
 ---
@@ -202,16 +202,16 @@ Disponível em [https://filipefernandesphd.github.io/TCCII/2026.2/](https://fili
 ---
 title: Atendimento
 ---
-- Quintas-feiras de 13h às 17h
+- Quintas-feiras, das 13h às 17h
 - Agendamento: [https://forms.gle/2VPe4UfohKUxa7Du9](https://forms.gle/2VPe4UfohKUxa7Du9)
 
 ---
 title: Avaliações
 ---
 
-- **Seminário I**: 2pts
-- **Seminário II**: 5pts
-- **Relatório**: 3pts
+- **Seminário I**: 2 pontos
+- **Seminário II**: 5 pontos
+- **Relatório**: 3 pontos
 
 <font size=4pt><i>Datas disponíveis em <a href="https://filipefernandesphd.github.io/TCCII/2026.2/" target="_blank">https://filipefernandesphd.github.io/TCCII/2026.2/</a></i></font>
 
@@ -244,7 +244,7 @@ title: Motivação
 layout: default
 title: Formato
 ---
-- Apresentação: 2 pts
+- Apresentação: 2 pontos
 
 ---
 layout: section
@@ -275,25 +275,25 @@ layout: default
 title: Formato
 ---
 
-- Relatório Técnico: 2,5 pts
-- Apresentação: 2,5 pts
+- Relatório técnico: 2,5 pontos
+- Apresentação: 2,5 pontos
 
 ---
-title: Relatório Técnico
+title: Relatório técnico
 ---
 
-- **Template**: template oficial do curso (coordenação)
-- **Entrega**: pdf do artigo
+- **Modelo**: modelo oficial do curso (coordenação)
+- **Entrega**: PDF do artigo
 
 ---
 title: Apresentação
 ---
-- Apresentação do TCC para banca **não oficial**
+- Apresentação do TCC para uma banca **não oficial**
 
 ---
 layout: section
 index: "06"
-title: Relatório Final
+title: Relatório final
 kicker: Avaliações
 ---
 
@@ -301,7 +301,7 @@ kicker: Avaliações
 title: Objetivos
 ---
 - Entregar a versão final do artigo com as revisões incorporadas
-- Comprovar a preparação para a banca (documentos, emails etc.)
+- Comprovar a preparação para a banca (documentos, e-mails etc.)
 
 ---
 title: Motivação
@@ -316,53 +316,53 @@ layout: default
 title: Formato
 ---
 
-- Relatório Técnico: 3 pts
+- Relatório técnico: 3 pontos
 
 ---
-title: Relatório Técnico
+title: Relatório técnico
 ---
 
-- **Template**: template oficial do curso (coordenação)
+- **Modelo**: modelo oficial do curso (coordenação)
 - **Entrega**: um arquivo **.zip** contendo
-  - pdf da versão final do artigo
-  - comprovação de convite aos membros da banca ou agendamento da banca 
+  - PDF da versão final do artigo
+  - comprovação dos convites enviados aos membros da banca ou do agendamento da banca
 
 
 ---
-title: Acordos Pedagógicos (1)
+title: Acordos pedagógicos (1)
 ---
 - **Respeito acima de tudo** [@regulamento_conduta_discente]:
   - Ao professor
   - Aos colegas da turma
-  - Todos em geral
+  - A todas as pessoas
 
 ---
-title: Acordos Pedagógicos (2)
+title: Acordos pedagógicos (2)
 ---
 - **Registro da frequência**:
-  - **Obrigatoriamente** através da lista de presença
+  - **Obrigatoriamente** por meio da lista de presença
   - Bom senso na permanência em sala de aula
 
 - **Aprovação**:
-  - Conforme normas institucionais [@RAG2018]
+  - Conforme as normas institucionais [@RAG2018]
 
 ---
-title: Acordos Pedagógicos (3)
+title: Acordos pedagógicos (3)
 ---
 - **Reposições do curso (oferta integral)** [@PPCBSI2025]:
   - Período vespertino, conforme definido no [cronograma](https://filipefernandesphd.github.io/TCCII/2026.2/)
 
 ---
-title: Acordos Pedagógicos (4)
+title: Acordos pedagógicos (4)
 ---
 - **Direitos e deveres do discente** [@regulamento_conduta_discente]:
-  - Art. 15 inciso I: "*Conhecer e cumprir as diretrizes no Regulamento de Conduta Discente do IF Sudeste MG e demais regulamentos e normas institucionais*"
-  - Art. 19: "*O ato de indisciplina se caracterizará pelo não cumprimento de um ou mais incisos constantes no *art. 15* ou a prática de um ou mais incisos constantes no art. 16*"
+  - Art. 15, inciso I: *Conhecer e cumprir as diretrizes do Regulamento de Conduta Discente do IF Sudeste MG e os demais regulamentos e normas institucionais*
+  - Art. 19: *O ato de indisciplina se caracterizará pelo descumprimento de um ou mais incisos do art. 15 ou pela prática de um ou mais incisos do art. 16*
 
-**Acesse o [Chatbot não oficial](https://filipefernandesphd.com/teaching) para obter mais informações**
+**Acesse o [chatbot não oficial](https://filipefernandesphd.com/teaching) para obter mais informações.**
 
 ---
-title: Acordos Pedagógicos (5)
+title: Acordos pedagógicos (5)
 ---
 
 - **Materiais**:
@@ -377,31 +377,31 @@ title: Gravação das aulas
 ---
 title: Gravação das aulas (1)
 ---
-- Iniciativa **exclusivamente** do Prof. Filipe Fernandes
+- A gravação é uma iniciativa **exclusiva** do professor Filipe Fernandes
 
-- Registro **exclusivamente** do Prof. Filipe Fernandes:
-  - Tela do computador
-  - Imagem e voz
+- Serão registrados **exclusivamente**:
+  - a tela do computador
+  - a imagem e a voz do professor Filipe Fernandes
 
-- **A imagem, voz ou identificação dos estudantes não serão gravadas intencionalmente**
+- **A imagem, a voz e a identidade dos estudantes não serão registradas intencionalmente**
 
 ---
 title: Gravação das aulas (2)
 ---
 
 - **Objetivos**:
-  - Produção de conteúdo educacional de autoria do Prof. Filipe Fernandes
+  - Produção de conteúdo educacional de autoria do professor Filipe Fernandes
   - Disponibilização de **material de apoio** para os estudantes da disciplina
-    - Trasmissão ao vivo no [YouTube e outras plataformas](https://filipefernandesphd.com/)
+    - Transmissão ao vivo no [YouTube e em outras plataformas](https://filipefernandesphd.com/)
 
 ---
 title: Gravação das aulas (3)
 ---
 - **IMPORTANTE!**
-  * As transmissões ao vivo e as gravações são uma **iniciativa exclusiva do professor**, destinada ao apoio aos estudos e à produção de conteúdo educacional
-  * **Não** configuram modalidade institucional de ensino
-  * **Não** substituem as aulas presenciais
-  * É **vedada** a utilização das transmissões ao vivo ou das gravações como justificativa para faltas às aulas presenciais
+  - As transmissões ao vivo e as gravações são **iniciativas exclusivas do professor**, destinadas ao apoio aos estudos e à produção de conteúdo educacional
+  - **Não** configuram modalidade institucional de ensino
+  - **Não** substituem as aulas presenciais
+  - É **vedada** a utilização das transmissões ao vivo ou das gravações como justificativa para faltas às aulas presenciais
 
 ---
 layout: default
@@ -413,8 +413,8 @@ title: Referências
 
 ---
 layout: quote
-quote: Não podemos voltar atrás e mudar o começo, mas podemos começar agora e mudar o final
-author: C.S. Lewis
+quote: Não podemos voltar atrás e mudar o começo, mas podemos começar agora e mudar o final.
+author: C. S. Lewis
 ---
 
 ---
@@ -431,7 +431,7 @@ features:
 
 ---
 layout: two-cols
-title: Avaliação da Experiência de Aprendizagem
+title: Avaliação da experiência de aprendizagem
 ---
 - **[Seu feedback é muito importante!](https://forms.gle/CMfL5oTm235FfuH59)**
 - Obtenha o código da avaliação
