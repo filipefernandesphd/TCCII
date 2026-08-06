@@ -301,7 +301,7 @@ kicker: Avaliações
 title: Objetivos
 ---
 - Entregar a versão final do artigo com as revisões incorporadas
-- Comprovar a preparação para a banca
+- Comprovar a preparação para a banca (documentos, emails etc.)
 
 ---
 title: Motivação
