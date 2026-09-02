@@ -11,6 +11,7 @@ themeConfig:
 mdc: true
 routerMode: hash
 preloadImages: false
+browserExporter: build
 biblio:
   filename: references.bib
   show_full_bib: true
